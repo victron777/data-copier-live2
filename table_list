@@ -1,0 +1,8 @@
+
+table_name:to_be_loaded
+customers:no
+departments:yes
+categories:no
+products:no
+orders:yes
+order_items:no
