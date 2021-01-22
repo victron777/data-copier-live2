@@ -1,4 +1,3 @@
-
 import sys
 from config import DB_DETAILS
 from util import get_tables
