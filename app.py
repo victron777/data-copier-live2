@@ -2,7 +2,6 @@ import sys
 from config import DB_DETAILS
 from util import get_tables
 
-
 def main():
     """Program takes at least one argument"""
     env = sys.argv[1]
