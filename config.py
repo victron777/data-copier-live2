@@ -20,6 +20,3 @@ DB_DETAILS = {
 
 }
 
-# print(DB_DETAILS['dev'])
-# print(os.environ.get('DB_USER'))
-
