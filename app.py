@@ -8,7 +8,8 @@ def main():
     """Program takes at least one argument"""
     env = sys.argv[1]
     db_details = load_db_details(env)
-    tables = get_tables('/home/victor/IdeaProjects/data-copier-live/table_list')
+    tables = get_tables('table_list')
+    print("These are the tables to be loaded", tables)
 
     for table_name in tables['table_name']:
         print('Reading data for {}'.format(table_name))

@@ -4,7 +4,7 @@ DB_DETAILS = {
     'dev': {
         'SOURCE_DB': {
             'DB_TYPE': 'mysql',
-            'DB_HOST': '0.0.0.0',
+            'DB_HOST': 'localhost',
             'DB_PORT': '3307',
             'DB_NAME': 'sourceDB',
             'DB_USER': os.environ.get('SOURCE_DB_USER'),
